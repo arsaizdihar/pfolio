@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className="sm:flex-grow flex justify-center">
         <div className="w-80">
-          <img src="pfolio/arsa.jpg" alt="arsa" className="rounded-full" />
+          <img src="arsa.jpg" alt="arsa" className="rounded-full" />
         </div>
       </div>
     </div>

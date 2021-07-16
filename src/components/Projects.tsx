@@ -58,7 +58,7 @@ const Projects = () => {
           <div className="flex-grow flex justify-center px-10 flex-col text-center space-y-2">
             <h3 className="text-xl font-bold">{project.name}</h3>
             <a href={project.url} target="_blank" rel="noreferrer">
-              <img src={"pfolio/" + project.image} alt={project.image} />
+              <img src={project.image} alt={project.image} />
             </a>
             {/* <div className="py-2">
               <a
