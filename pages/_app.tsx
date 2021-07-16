@@ -2,9 +2,10 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { NextPage } from "next";
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://arsaizdihar.github.io/pfolio";
 const title = "Arsa Izdihar Islam Portfolio";
-const description = "Portfolio landed page of Arsa Izdihar Islam.";
+const description =
+  "Undergraduate Electrical & Informatics Engineering Student at Institute of Technology Bandung";
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
@@ -22,8 +23,8 @@ const MyApp: NextPage<AppProps> = ({ Component, pageProps }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={baseUrl + "/static/img/arsa.jpg"} />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="twitter:image" content={baseUrl + "/arsa.jpg"} />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>

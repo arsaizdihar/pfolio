@@ -20,11 +20,13 @@ export default function Index() {
     window.addEventListener("scroll", () => {
       Object.entries(sectionRefs.current).forEach(([key, value]) => {
         const rect = value.current?.getBoundingClientRect();
-
         if (rect && rect.top <= 0 && rect.bottom - rect.height <= 0) {
           setCurrentScroll([key, false]);
         }
       });
+      console.log(
+        sectionRefs.current.projects.current?.getBoundingClientRect()
+      );
     });
   }, []);
   useEffect(() => {
@@ -48,7 +50,7 @@ export default function Index() {
         <Home />
       </div>
       <div
-        className="h-screen bg-white py-16 px-8"
+        className="bg-white py-16 px-8 min-h-screen flex items-center"
         ref={sectionRefs.current.projects}
       >
         <Projects />
