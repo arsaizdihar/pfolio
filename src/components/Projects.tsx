@@ -10,7 +10,7 @@ const projects = [
   {
     name: "Twitter Clone",
     image: "twitterclone.png",
-    url: "https://tweetrs.vercel.app",
+    url: "https://arsaizdihar.site",
   },
   {
     name: "Personal Blog",
