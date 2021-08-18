@@ -1,19 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faInstagram,
   faLinkedinIn,
-  faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 const links = {
   github: "https://github.com/arsaizdihar",
   linkedin: "https://linkedin.com/in/arsaizdihar",
-  twitter: "https://twitter.com/bisainterus",
   instagram: "https://instagram.com/arsaizdihar",
   youtube: "https://www.youtube.com/channel/UCncYu-OhvVdu4pdVW2dMlVw",
 };
@@ -50,14 +48,6 @@ const Home = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
-          <a
-            href={links.twitter}
-            className="hover:text-blue-400 duration-300"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a
             href={links.instagram}

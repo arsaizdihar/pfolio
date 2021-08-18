@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
 import { Disclosure, Transition } from "@headlessui/react";
-import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 const navigation = [
   {
     name: "HOME",
@@ -125,8 +124,8 @@ const NavBar: React.FC<Props> = ({ currentScroll, setCurrentScroll }) => {
                 {navigation.map((item) => (
                   <a
                     key={item.name}
-                    className={`text-teal-900 hover:bg-teal-700 hover:text-gray-500 block px-3 py-2 rounded-md text-base font-bold cursor-pointer ${
-                      navFixed ? "" : "border-b border-white"
+                    className={`hover:text-gray-500 block px-3 py-2 rounded-md text-base font-bold cursor-pointer ${
+                      navFixed ? "" : "border-b border-white bg-black"
                     }`}
                     onClick={() => {
                       disButton.current?.click();

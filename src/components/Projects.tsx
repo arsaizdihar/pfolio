@@ -1,16 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
-import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
+import "swiper/components/pagination/pagination.min.css";
+import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper/core";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.min.css";
 
 const projects = [
   {
     name: "Twitter Clone",
     image: "twitterclone.png",
     url: "https://arsaizdihar.site",
+  },
+  {
+    name: "Try Out Web",
+    image: "terjago.jpg",
+    url: "https://terjago.id/",
   },
   {
     name: "Personal Blog",
