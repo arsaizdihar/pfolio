@@ -1,5 +1,5 @@
 module.exports = {
-  // basePath: "/pfolio",
-  // assetPrefix: "/pfolio/",
+  basePath: "/pfolio",
+  assetPrefix: "/pfolio/",
   reactStrictMode: true,
 };
