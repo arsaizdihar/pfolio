@@ -10,7 +10,7 @@ const projects = [
   {
     name: "Twitter Clone",
     image: "twitterclone.png",
-    url: "https://arsaizdihar.site",
+    url: "https://arsaiz.xyz",
   },
   {
     name: "Try Out Web",
